@@ -5,12 +5,20 @@ body{
 
 h1{
     background-color: rgb(137, 231, 137);
+    background: linear-gradient(to right,
+     rgb(255, 251, 0) 10%, rgb(243, 159, 4) 20%, red 40%, rgb(192, 1, 97) 60%, purple 100%
+    );
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
     font-size: 120px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0); 
+
 }
 
 h2{
-    background-color: rgb(1, 65, 1);
+    background-color: rgb(3, 121, 3);
     color: rgb(252, 252, 252);
     font-size: 65px;
     
@@ -18,5 +26,6 @@ h2{
 
 p{
     font-size: 20px;
+    colo
 
 }
